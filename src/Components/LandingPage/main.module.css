@@ -30,7 +30,7 @@
 
 .gridItem:hover{
     color: white;
-    background: skyblue;
+    background: rgb(111, 188, 219);
     box-shadow: 4px;
 }
 
