@@ -56,6 +56,10 @@
     
 @media screen and (max-width:768px) {
     .grid{
-        grid-template-columns: auto auto;
+        grid-template-columns: 48% 48%;
+        gap: 0.5rem;
+    }
+    .gridItem{
+        padding: 0.5rem;
     }
 }

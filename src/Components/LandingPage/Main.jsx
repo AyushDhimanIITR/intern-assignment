@@ -30,7 +30,7 @@ const Main = () => {
                         <div className={style.title}>{truncate(data.title)} </div>
                         <div className={style.desc}> {descTruncate(data.body)} </div>
                         <div className={style.btn}> 
-                        <Link to={`posts/${data.id}`}>Read More...</Link>
+                        <Link target="blank" to={`posts/${data.id}`}>Read More...</Link>
                         </div>
                     </div>
             })}

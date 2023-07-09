@@ -33,8 +33,9 @@ const Page = () => {
                 {
                     comments.map((val, i) => {
                         return <div key={i}>
-                            <li>{val.email} ( <span>{val.name} </span>) </li>
-                            <p>{val.body} </p>
+                            <li>{val.email} ( <span style={{textTransform:"capitalize"}}>{val.name} </span>) </li>
+                            <p className={style.commentBody}>{val.body} </p>
+                            <hr/> 
                         </div>
                     })
                 }
